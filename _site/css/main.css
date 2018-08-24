@@ -398,11 +398,6 @@ textarea {
 textarea {
   min-height: 7em;
 }
-input[type="submit"] {
-  width: auto;
-  display: block;
-  background-color: #1abc9c; /* featured color */
-}
 
 form [class*=col-] {
   padding: 1%;
