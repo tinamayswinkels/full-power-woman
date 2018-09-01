@@ -18,10 +18,13 @@ bg_images:
   - image_path: /images/placeholder.jpg
   - image_path: /images/placeholder.jpg
   - image_path: /images/placeholder.jpg
+banners:
+- image_path: /images/placeholder.jpg
+- image_path: /images/placeholder.jpg
 ---
 
 <!-- FIRST BANNER SECTION ---->
-  <section id="intro-banner" class="banner centered grid-middle-center">
+  <section id="intro-banner" class="banner centered grid-middle-center" style="background-image:url({{page.banners[0].image_path}})">
     <div class="col-8_sm-12">
       <h1> Full Power Women  </h1>
       <p class="big-emphasis editable">Live a life of purpose and joy</p>
@@ -53,7 +56,7 @@ bg_images:
   </section>
 
   <!-- Second BANNER SECTION ---->
-  <section class="banner centered grid-middle-center" style="background-image:url({{page.bg_images[0].image_path}})">
+  <section class="banner centered grid-middle-center" style="background-image:url({{page.banners[1].image_path}})">
     <div class="col-6_md-9_sm-12">
       <h2> The Full Power Woman Transformation </h2>
       <p class="big-emphasis editable">If you’re ready to tap into your power, then I’m here to help you. </p>
@@ -62,7 +65,7 @@ bg_images:
 
   <section class="grid padded-boxes">
     <!-- ROW -->
-    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[1].image_path}})">
+    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[0].image_path}})">
         <h2> About </h2>
     </div>
     <div class="col-6_sm-12 editable">
@@ -90,7 +93,7 @@ bg_images:
         <li>Areas of your life which deserve your full and undivided attention.</li>
       </ul>
     </div>
-    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[2].image_path}})">
+    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[1].image_path}})">
       <p class="subtitle"> Part 1 </p>
       <h2> Awareness </h2>
     </div>
@@ -126,74 +129,74 @@ bg_images:
 
   <section class="grid padded-boxes">
     <!-- ROW -->
+    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[2].image_path}})">
+        <h2> About </h2>
+    </div>
+    <div class="col-6_sm-12 editable">
+      <p>My three month long, one-on-one program is 100% customised to your unique needs and goals.&nbsp;</p>
+      <p><strong>You&rsquo;ll be shocked just how much you and your life can change in just three months. By the end of this transformational program, you&rsquo;ll be:</strong></p>
+      <ul>
+        <li>Clear on who you are and what you want.</li>
+        <li>Brave enough to dream BIG.</li>
+        <li>Deeply connected to your inner power and intuition.</li>
+        <li>Drawn towards your goals (forget willpower, it&rsquo;s all about finding a dream so compelling that it practically pulls you towards it).</li>
+        <li>Using your skills you&rsquo;ve got, and the support you&rsquo;ve put in place, to follow through on your goals.</li>
+      </ul>
+      <p><strong>Powerful. Full stop. End of story.</strong></p>
+      <p>During this intensive three-month program we&rsquo;ll work though the four pillars that are key to taking charge of your destiny and coming into your power.</p>
+    </div>
+
+    <!-- ROW -->
+
+    <div class="col-6_sm-12 editable">
+      <p><strong>Bring awareness to:</strong></p>
+      <ul>
+        <li>Where you are now and where do you want to be.</li>
+        <li>The fears, limiting thoughts and emotional blocks that no longer serve you.</li>
+        <li>Your existing skills, resources and power.</li>
+        <li>Areas of your life which deserve your full and undivided attention.</li>
+      </ul>
+    </div>
     <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[3].image_path}})">
-        <h2> About </h2>
+      <p class="subtitle"> Part 1 </p>
+      <h2> Awareness </h2>
     </div>
-    <div class="col-6_sm-12 editable">
-      <p>My three month long, one-on-one program is 100% customised to your unique needs and goals.&nbsp;</p>
-      <p><strong>You&rsquo;ll be shocked just how much you and your life can change in just three months. By the end of this transformational program, you&rsquo;ll be:</strong></p>
-      <ul>
-        <li>Clear on who you are and what you want.</li>
-        <li>Brave enough to dream BIG.</li>
-        <li>Deeply connected to your inner power and intuition.</li>
-        <li>Drawn towards your goals (forget willpower, it&rsquo;s all about finding a dream so compelling that it practically pulls you towards it).</li>
-        <li>Using your skills you&rsquo;ve got, and the support you&rsquo;ve put in place, to follow through on your goals.</li>
-      </ul>
-      <p><strong>Powerful. Full stop. End of story.</strong></p>
-      <p>During this intensive three-month program we&rsquo;ll work though the four pillars that are key to taking charge of your destiny and coming into your power.</p>
-    </div>
-
     <!-- ROW -->
-
-    <div class="col-6_sm-12 editable">
-      <p><strong>Bring awareness to:</strong></p>
-      <ul>
-        <li>Where you are now and where do you want to be.</li>
-        <li>The fears, limiting thoughts and emotional blocks that no longer serve you.</li>
-        <li>Your existing skills, resources and power.</li>
-        <li>Areas of your life which deserve your full and undivided attention.</li>
-      </ul>
-    </div>
     <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[4].image_path}})">
-      <p class="subtitle"> Part 1 </p>
-      <h2> Awareness </h2>
+        <h2> About </h2>
     </div>
+    <div class="col-6_sm-12 editable">
+      <p>My three month long, one-on-one program is 100% customised to your unique needs and goals.&nbsp;</p>
+      <p><strong>You&rsquo;ll be shocked just how much you and your life can change in just three months. By the end of this transformational program, you&rsquo;ll be:</strong></p>
+      <ul>
+        <li>Clear on who you are and what you want.</li>
+        <li>Brave enough to dream BIG.</li>
+        <li>Deeply connected to your inner power and intuition.</li>
+        <li>Drawn towards your goals (forget willpower, it&rsquo;s all about finding a dream so compelling that it practically pulls you towards it).</li>
+        <li>Using your skills you&rsquo;ve got, and the support you&rsquo;ve put in place, to follow through on your goals.</li>
+      </ul>
+      <p><strong>Powerful. Full stop. End of story.</strong></p>
+      <p>During this intensive three-month program we&rsquo;ll work though the four pillars that are key to taking charge of your destiny and coming into your power.</p>
+    </div>
+
     <!-- ROW -->
+
+    <div class="col-6_sm-12 editable">
+      <p><strong>Bring awareness to:</strong></p>
+      <ul>
+        <li>Where you are now and where do you want to be.</li>
+        <li>The fears, limiting thoughts and emotional blocks that no longer serve you.</li>
+        <li>Your existing skills, resources and power.</li>
+        <li>Areas of your life which deserve your full and undivided attention.</li>
+      </ul>
+    </div>
     <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[5].image_path}})">
-        <h2> About </h2>
-    </div>
-    <div class="col-6_sm-12 editable">
-      <p>My three month long, one-on-one program is 100% customised to your unique needs and goals.&nbsp;</p>
-      <p><strong>You&rsquo;ll be shocked just how much you and your life can change in just three months. By the end of this transformational program, you&rsquo;ll be:</strong></p>
-      <ul>
-        <li>Clear on who you are and what you want.</li>
-        <li>Brave enough to dream BIG.</li>
-        <li>Deeply connected to your inner power and intuition.</li>
-        <li>Drawn towards your goals (forget willpower, it&rsquo;s all about finding a dream so compelling that it practically pulls you towards it).</li>
-        <li>Using your skills you&rsquo;ve got, and the support you&rsquo;ve put in place, to follow through on your goals.</li>
-      </ul>
-      <p><strong>Powerful. Full stop. End of story.</strong></p>
-      <p>During this intensive three-month program we&rsquo;ll work though the four pillars that are key to taking charge of your destiny and coming into your power.</p>
-    </div>
-
-    <!-- ROW -->
-
-    <div class="col-6_sm-12 editable">
-      <p><strong>Bring awareness to:</strong></p>
-      <ul>
-        <li>Where you are now and where do you want to be.</li>
-        <li>The fears, limiting thoughts and emotional blocks that no longer serve you.</li>
-        <li>Your existing skills, resources and power.</li>
-        <li>Areas of your life which deserve your full and undivided attention.</li>
-      </ul>
-    </div>
-    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[6].image_path}})">
       <p class="subtitle"> Part 1 </p>
       <h2> Awareness </h2>
     </div>
 
     <!-- ROW -->
-    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[7].image_path}})">
+    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[6].image_path}})">
         <h2> About </h2>
     </div>
     <div class="col-6_sm-12 editable">
@@ -221,13 +224,13 @@ bg_images:
         <li>Areas of your life which deserve your full and undivided attention.</li>
       </ul>
     </div>
-    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[8].image_path}})">
+    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[7].image_path}})">
       <p class="subtitle"> Part 1 </p>
       <h2> Awareness </h2>
     </div>
 
     <!-- Row -->
-    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[9].image_path}})">
+    <div class="col-6_sm-12 bg-image" style="background-image:url({{page.bg_images[8].image_path}})">
         <h2> About </h2>
     </div>
     <div class="col-6_sm-12 editable">
