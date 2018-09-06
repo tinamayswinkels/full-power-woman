@@ -432,7 +432,7 @@ form [class*=col-] {
   background-color: teal;
   padding: 1rem;
   font-size: 1.2rem;
-  text-transform: uppercase;
+  font-family: 'Work Sans'; 
 }
 .buy-box-intro h3 span {
   color: white;
