@@ -171,6 +171,7 @@ footer nav .fa,
     position: absolute;
     top:1rem;
     left: 1rem;
+    max-width: 14rem;
 }
 
 /* -- Mobile Nav -- */
