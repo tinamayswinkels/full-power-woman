@@ -24,6 +24,7 @@ Website Colours: List colour hex codes here for reference
 
 img {
   max-width: 100%; /* This ensures an image never breaks it's container */
+  height: auto;
 }
 
 [class*=grid-][class*=-equalHeight]>[class*=col] {
