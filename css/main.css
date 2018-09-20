@@ -431,7 +431,6 @@ form [class*=col-] {
   border-radius: 3px;
   padding:0;
   position: relative;
-  padding-bottom: 4rem;
   background-color: rgb(240,240,240);
 }
 
@@ -451,6 +450,7 @@ form [class*=col-] {
 
 .buy-box-content {
   padding: 1rem 2rem;
+  padding-bottom: 4rem;
 }
 
 .buy-box-content .price {
@@ -474,6 +474,7 @@ form [class*=col-] {
   display:block;
   position: absolute;
   bottom:0;
+  left: 0;
   color: white;
   text-transform: uppercase;
   background-color: rgb(90,90,95);
@@ -484,7 +485,7 @@ form [class*=col-] {
 @media(max-width:800px) {
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 2.2rem;b
     }
     h3 {font-size: 1.5rem;}
     
