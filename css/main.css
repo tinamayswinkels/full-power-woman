@@ -483,6 +483,11 @@ form [class*=col-] {
 /*------- Media Queries ------------------------*/
 @media(max-width:800px) {
 
+    h2 {
+        font-size: 2.2rem;
+    }
+    h3 {font-size: 1.5rem;}
+
   /* --- General Responsive Helpers ----*/
 
   .mob-hide {
