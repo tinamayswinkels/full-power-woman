@@ -491,6 +491,10 @@ form [class*=col-] {
     .bg-image {
         min-height: 50vh;
     }
+    
+    .padded-boxes>div {
+        margin-bottom: 0;
+    }
 
   /* --- General Responsive Helpers ----*/
 
