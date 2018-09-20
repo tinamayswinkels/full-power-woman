@@ -523,5 +523,9 @@ form [class*=col-] {
   textarea {
     margin: 0;
   }
+  
+  .bg-yellow {
+      background-color: #ffeaa7;
+  }
 
 }/* End media query */
