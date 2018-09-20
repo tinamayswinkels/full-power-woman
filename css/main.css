@@ -489,7 +489,7 @@ form [class*=col-] {
     h3 {font-size: 1.5rem;}
     
     .bg-image {
-        min-height: 40vh;
+        min-height: 50vh;
     }
 
   /* --- General Responsive Helpers ----*/
