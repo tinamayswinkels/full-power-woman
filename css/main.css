@@ -57,8 +57,8 @@ body {
   font-family: 'Nunito', sans-serif;/* Make sure you have added this font in the head of your HTML! */
   color: rgb(60,60,65);
   background: #ee9ca7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(#fff1e0, #ffe4d5); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(#fff1e0, #ffe4d5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(#fff4ee, #ffe4d5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#fff4ee, #ffe4d5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1, h2, h3, h4, h5, h6 {
