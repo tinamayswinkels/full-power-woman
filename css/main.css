@@ -54,7 +54,7 @@ img {
 
 /* Typography */
 body {
-  font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
+  font-family: 'Nunito', sans-serif;/* Make sure you have added this font in the head of your HTML! */
   color: rgb(60,60,65);
   background: #ee9ca7; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
