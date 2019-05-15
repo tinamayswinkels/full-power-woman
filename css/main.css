@@ -120,6 +120,10 @@ section         { padding: 10vh 5%; }
   padding-left: 10%;
 }
 
+.padded {
+    padding: 1rem;
+}
+
 /* Other universal styles */
 
 .featured{
