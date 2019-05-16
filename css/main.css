@@ -165,6 +165,10 @@ nav a.cc-active {
   border-bottom: 1px solid;
 }
 
+.logo h1 {
+  font-family: nunito;
+}
+
 .logo h3{
   font-family: nunito;
   font-size: 1.4rem;
