@@ -454,6 +454,7 @@ form [class*=col-] {
   padding: 1rem;
   font-size: 1.5rem;
   font-family: 'Nunito'; 
+  font-weight: normal;
 }
 .buy-box-intro h3 span {
   color: white;
