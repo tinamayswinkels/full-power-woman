@@ -53,6 +53,10 @@ img {
     background-color: white;
 }
 
+.white-bg h3 {
+    color: #ff9789;
+}
+
 
 /* ----- UNIVERSAL STYLES --------------------------- */
 
@@ -67,7 +71,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'IM Fell DW Pica', sans-serif;
   font-weight:normal;
 }
 h1 {
