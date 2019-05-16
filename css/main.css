@@ -451,10 +451,10 @@ form [class*=col-] {
 
 .buy-box-intro h3 {
   color: white;
-  background-color: teal;
+  background-color: #ff9789;
   padding: 1rem;
-  font-size: 1.2rem;
-  font-family: 'Work Sans'; 
+  font-size: 1.5rem;
+  font-family: 'Nunito'; 
 }
 .buy-box-intro h3 span {
   color: white;
