@@ -163,9 +163,9 @@ nav a.cc-active {
   border-bottom: 1px solid;
 }
 
-.logo {
-  max-height: 4.5rem;
-  max-width: 20rem;
+.logo h3{
+  font-family: nunito;
+  font-size: 1.4rem;
 }
 header {
   background-color: #ededef;
