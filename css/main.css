@@ -446,7 +446,6 @@ form [class*=col-] {
   border-radius: 3px;
   padding:0;
   position: relative;
-  background-color: rgb(240,240,240);
 }
 
 .buy-box-intro h3 {
