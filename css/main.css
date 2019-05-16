@@ -448,19 +448,12 @@ form [class*=col-] {
   position: relative;
 }
 
-.buy-box-intro h3 {
+.buy-box-intro {
   color: white;
   background-color: #ff9789;
   padding: 1rem;
-  font-size: 1.5rem;
   font-family: 'Nunito'; 
   font-weight: normal;
-}
-.buy-box-intro h3 span {
-  color: white;
-  display: block;
-  font-weight: lighter;
-  padding-bottom: 0.5rem;
 }
 
 .buy-box-content {
